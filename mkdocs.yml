@@ -1,0 +1,116 @@
+site_name: AgenticCP Dict
+site_description: AgenticCP 생태계를 위한 백과사전/용어사전 스타일 기술 문서
+site_author: AgenticCP Team
+site_url: https://github.com/CCCloudPlatform
+
+repo_name: AgenticCP-Dict
+repo_url: https://github.com/CCCloudPlatform/AgenticCP-Dict
+
+
+theme:
+  name: material
+  language: ko
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드로 전환
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드로 전환
+  font:
+    text: Pretendard
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CCCloudPlatform
+      name: GitHub
+  # 작성자 프로필 등록
+  authors:
+    # 예시 작성자 프로필 (실제 작성자 정보로 교체하세요)
+    default:
+      name: AgenticCP Team
+      github: CCCloudPlatform
+      email: ""
+      bio: "AgenticCP 개발팀"
+      avatar: ""
+    kkooonsj:
+      name: 권순재
+      github: KwonSunJae
+      email: "ksun411@gmail.com"
+      bio: "AgenticCP 그자체"
+      avatar: "https://github.com/KwonSunJae.png"
+    # 추가 작성자 예시:
+    # honggildong:
+    #   name: 홍길동
+    #   github: honggildong
+    #   email: hong@example.com
+    #   bio: "백엔드 개발자"
+    #   avatar: "https://github.com/honggildong.png"
+
+nav:
+  - 홈: index.md
+  - 백과사전:
+      - 사용 가이드: encyclopedia/how-to-use.md
+      - 모든 항목: encyclopedia/_index.md
+      - 테넌트와 조직: encyclopedia/tenant-and-organization.md
+      - 사용자 주체: encyclopedia/subject-user-admin-superadmin.md
+  - 용어사전:
+      - 사용 가이드: glossary/how-to-use.md
+      - 용어 인덱스: glossary/index.md
+      - 테넌트: glossary/tenant.md
+      - 조직: glossary/organization.md
+      - User: glossary/user.md
+      - Admin: glossary/admin.md
+      - Super Admin: glossary/super-admin.md
+  - 디자인 가이드:
+      - 스타일 가이드: design/style-guide.md
+      - 작성자 프로필: design/author-profiles.md
+  - 기여 가이드: contributing.md
+
+plugins:
+  - search:
+      lang:
+        - ko
+        - en
+  - tags
+  - author_card:
+      enabled: true
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - def_list
+  - footnotes
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+

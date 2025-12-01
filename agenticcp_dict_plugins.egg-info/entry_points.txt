@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+author_card = plugins.author_card:AuthorCardPlugin

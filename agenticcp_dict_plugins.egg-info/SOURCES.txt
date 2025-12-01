@@ -1,0 +1,8 @@
+setup.py
+agenticcp_dict_plugins.egg-info/PKG-INFO
+agenticcp_dict_plugins.egg-info/SOURCES.txt
+agenticcp_dict_plugins.egg-info/dependency_links.txt
+agenticcp_dict_plugins.egg-info/entry_points.txt
+agenticcp_dict_plugins.egg-info/top_level.txt
+plugins/__init__.py
+plugins/author_card.py
