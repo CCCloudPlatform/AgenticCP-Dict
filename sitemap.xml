@@ -21,7 +21,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://&lt;YOUR_GITHUB_USERNAME&gt;.github.io/AgenticCP-Dict/encyclopedia/subject-user-admin-superadmin/</loc>
+         <lastmod>2025-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://&lt;YOUR_GITHUB_USERNAME&gt;.github.io/AgenticCP-Dict/encyclopedia/template/</loc>
+         <lastmod>2025-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://&lt;YOUR_GITHUB_USERNAME&gt;.github.io/AgenticCP-Dict/encyclopedia/tenant-and-organization/</loc>
          <lastmod>2025-12-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -41,7 +51,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://&lt;YOUR_GITHUB_USERNAME&gt;.github.io/AgenticCP-Dict/glossary/admin/</loc>
+         <lastmod>2025-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://&lt;YOUR_GITHUB_USERNAME&gt;.github.io/AgenticCP-Dict/glossary/organization/</loc>
+         <lastmod>2025-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://&lt;YOUR_GITHUB_USERNAME&gt;.github.io/AgenticCP-Dict/glossary/super-admin/</loc>
+         <lastmod>2025-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://&lt;YOUR_GITHUB_USERNAME&gt;.github.io/AgenticCP-Dict/glossary/template/</loc>
+         <lastmod>2025-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://&lt;YOUR_GITHUB_USERNAME&gt;.github.io/AgenticCP-Dict/glossary/tenant/</loc>
+         <lastmod>2025-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://&lt;YOUR_GITHUB_USERNAME&gt;.github.io/AgenticCP-Dict/glossary/user/</loc>
          <lastmod>2025-12-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
