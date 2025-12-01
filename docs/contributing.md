@@ -11,6 +11,7 @@ AgenticCP Dict에 기여해 주셔서 감사합니다!
 
 ```bash
 pip install -r requirements.txt
+pip install -e . --force-reinstall --no-deps
 mkdocs serve
 ```
 
