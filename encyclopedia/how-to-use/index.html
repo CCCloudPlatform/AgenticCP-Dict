@@ -12,13 +12,13 @@
         <meta name="author" content="AgenticCP Team">
       
       
-        <link rel="canonical" href="https://github.com/CCCloudPlatform/glossary/tenant/">
+        <link rel="canonical" href="https://github.com/CCCloudPlatform/encyclopedia/how-to-use/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../..">
       
       
-        <link rel="next" href="../organization/">
+        <link rel="next" href="../_index/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>테넌트 (Tenant) - AgenticCP Dict</title>
+        <title>백과사전 사용 가이드 - AgenticCP Dict</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              테넌트 (Tenant)
+              백과사전 사용 가이드
             
           </span>
         </div>
@@ -241,11 +241,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../encyclopedia/how-to-use/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   백과사전
@@ -259,13 +261,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../how-to-use/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../glossary/how-to-use/" class="md-tabs__link">
           
   
   용어사전
@@ -379,25 +379,30 @@
       
   
   
+    
   
   
+  
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -408,7 +413,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             백과사전
@@ -419,10 +424,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../encyclopedia/how-to-use/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    사용 가이드
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -431,6 +456,173 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      백과사전이란?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      백과사전 항목 구조
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="백과사전 항목 구조">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-tldr-too-long-didnt-read" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. TL;DR (Too Long; Didn't Read)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 개념 정의
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 설계 의도 / 등장 배경
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 주요 사용 시나리오
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 관련 코드 / 모듈
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. 관련 항목
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      백과사전 활용 방법
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="백과사전 활용 방법">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      검색하기
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      읽기 전략
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      새 항목 작성하기
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vs" class="md-nav__link">
+    <span class="md-ellipsis">
+      백과사전 vs 용어사전
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      현재 백과사전 항목
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      관련 항목
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -443,7 +635,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../encyclopedia/_index/" class="md-nav__link">
+      <a href="../_index/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -464,7 +656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../encyclopedia/tenant-and-organization/" class="md-nav__link">
+      <a href="../tenant-and-organization/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -485,7 +677,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../encyclopedia/subject-user-admin-superadmin/" class="md-nav__link">
+      <a href="../subject-user-admin-superadmin/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -510,30 +702,25 @@
       
   
   
-    
   
   
-  
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -544,7 +731,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             용어사전
@@ -558,7 +745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../how-to-use/" class="md-nav__link">
+      <a href="../../glossary/how-to-use/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -579,7 +766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../glossary/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -597,28 +784,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    테넌트
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../glossary/tenant/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -627,51 +796,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="목차">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      목차
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      한 줄 정의
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      상세 설명
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      관련 항목
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -684,7 +808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../organization/" class="md-nav__link">
+      <a href="../../glossary/organization/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -705,7 +829,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../user/" class="md-nav__link">
+      <a href="../../glossary/user/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -726,7 +850,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../admin/" class="md-nav__link">
+      <a href="../../glossary/admin/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -747,7 +871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../super-admin/" class="md-nav__link">
+      <a href="../../glossary/super-admin/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -825,6 +949,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -833,18 +959,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      한 줄 정의
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      상세 설명
+      백과사전이란?
     </span>
   </a>
   
@@ -852,6 +969,135 @@
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      백과사전 항목 구조
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="백과사전 항목 구조">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-tldr-too-long-didnt-read" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. TL;DR (Too Long; Didn't Read)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 개념 정의
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 설계 의도 / 등장 배경
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 주요 사용 시나리오
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 관련 코드 / 모듈
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. 관련 항목
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      백과사전 활용 방법
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="백과사전 활용 방법">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      검색하기
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      읽기 전략
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      새 항목 작성하기
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vs" class="md-nav__link">
+    <span class="md-ellipsis">
+      백과사전 vs 용어사전
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      현재 백과사전 항목
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       관련 항목
     </span>
@@ -878,13 +1124,13 @@
     
     
     
-      <span class="md-tag">tenant</span>
+      <span class="md-tag">guide</span>
     
   
     
     
     
-      <span class="md-tag">core-domain</span>
+      <span class="md-tag">encyclopedia</span>
     
   
 </nav>
@@ -894,21 +1140,112 @@
   
 
 
-  <h1>테넌트</h1>
-
-<h2 id="_1">한 줄 정의<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>AgenticCP에서 <strong>하나의 조직에 대응되는 클라우드 리소스의 논리적 집합체(컨테이너)</strong>.</p>
-<h2 id="_2">상세 설명<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h1 id="_1">백과사전 사용 가이드<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>AgenticCP 백과사전은 <strong>핵심 개념, 아키텍처, 설계 패턴</strong>을 상세하게 설명하는 문서 모음입니다.</p>
+<h2 id="_2">백과사전이란?<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>백과사전 항목은 다음과 같은 특징을 가집니다:</p>
 <ul>
-<li>멀티 테넌트 아키텍처에서 각 테넌트는 <strong>서로 격리된 리소스·데이터·정책 단위</strong>를 의미한다.  </li>
-<li>이 프로젝트에서는 <strong>1 조직 = 1 테넌트</strong> 규칙을 사용하여,<br />
-  “조직이 사용하는 모든 클라우드 리소스는 해당 조직의 테넌트에 속한다”는 전제를 둔다.</li>
-<li>보안 정책, 비용 한도, 기능 플래그, 플랫폼 설정 등은 기본적으로 <strong>테넌트 단위로 관리</strong>된다.</li>
+<li><strong>상세한 설명</strong>: 개념의 정의, 설계 의도, 배경, 사용 시나리오를 포함합니다</li>
+<li><strong>구조화된 정보</strong>: TL;DR → 개념 정의 → 설계 의도 → 사용 시나리오 → 관련 항목 순서로 구성됩니다</li>
+<li><strong>다이어그램과 예시</strong>: 복잡한 개념은 다이어그램이나 코드 예시로 보완됩니다</li>
+<li><strong>교차 참조</strong>: 관련된 다른 개념들과의 링크를 제공합니다</li>
 </ul>
-<h2 id="_3">관련 항목<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h2 id="_3">백과사전 항목 구조<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>각 백과사전 항목은 다음 구조를 따릅니다:</p>
+<h3 id="1-tldr-too-long-didnt-read">1. TL;DR (Too Long; Didn't Read)<a class="headerlink" href="#1-tldr-too-long-didnt-read" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="../../encyclopedia/tenant-and-organization/">[테넌트와 조직 (Tenant &amp; Organization)]</a></li>
-<li><a href="../organization/">[조직 (Organization)]</a></li>
+<li>개념을 <strong>2-3줄로 요약</strong>한 핵심 내용</li>
+<li>빠르게 파악하고 싶을 때 먼저 읽는 섹션</li>
+</ul>
+<h3 id="2">2. 개념 정의<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>해당 개념이 <strong>무엇인지</strong>, 어떤 문제를 해결하기 위해 존재하는지 설명</li>
+<li>도메인에서의 위치와 역할을 명확히 정의</li>
+</ul>
+<h3 id="3">3. 설계 의도 / 등장 배경<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>왜 이 개념이 AgenticCP에 도입되었는지</li>
+<li>다른 접근 방식과 비교했을 때의 장단점</li>
+<li>설계 결정의 근거</li>
+</ul>
+<h3 id="4">4. 주요 사용 시나리오<a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>어떤 흐름에서, 누가, 어떻게 이 개념과 상호작용하는지</li>
+<li>실제 사용 예시와 워크플로우</li>
+</ul>
+<h3 id="5">5. 관련 코드 / 모듈<a class="headerlink" href="#5" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>AgenticCP-Core</code>의 관련 엔티티, 서비스, 리포지토리 등</li>
+<li>코드 레벨에서의 구현 위치</li>
+</ul>
+<h3 id="6">6. 관련 항목<a class="headerlink" href="#6" title="Permanent link">&para;</a></h3>
+<ul>
+<li>다른 백과사전 항목이나 용어사전 항목으로의 링크</li>
+<li>함께 보면 이해가 깊어지는 개념들</li>
+</ul>
+<h2 id="_4">백과사전 활용 방법<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="_5">검색하기<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>상단 검색창 사용</strong>: 키워드로 원하는 개념 검색</li>
+<li><strong>태그 필터링</strong>: 관련 태그를 클릭하여 비슷한 항목 탐색</li>
+<li><strong>네비게이션 메뉴</strong>: 좌측 메뉴에서 카테고리별로 탐색</li>
+</ol>
+<h3 id="_6">읽기 전략<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>빠른 파악</strong>: TL;DR 섹션만 읽기</li>
+<li><strong>깊이 이해</strong>: 전체 섹션을 순서대로 읽기</li>
+<li><strong>연속 탐색</strong>: 하단 "관련 항목" 링크를 따라가며 개념 네트워크 탐색</li>
+</ul>
+<h3 id="_7">새 항목 작성하기<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>백과사전에 새 항목을 추가할 때는:</p>
+<ol>
+<li><code>docs/encyclopedia/template.md</code>를 복사하여 시작</li>
+<li>Front matter에 적절한 <code>title</code>과 <code>tags</code> 설정</li>
+<li>각 섹션을 채워넣기</li>
+<li>관련 항목과의 링크 추가</li>
+<li><code>mkdocs.yml</code>의 네비게이션에 항목 추가</li>
+</ol>
+<h2 id="vs">백과사전 vs 용어사전<a class="headerlink" href="#vs" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>백과사전</th>
+<th>용어사전</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>목적</strong></td>
+<td>개념을 깊이 있게 이해</td>
+<td>빠르게 정의 확인</td>
+</tr>
+<tr>
+<td><strong>길이</strong></td>
+<td>긴 문서 (500+ 단어)</td>
+<td>짧은 문서 (100-200 단어)</td>
+</tr>
+<tr>
+<td><strong>구조</strong></td>
+<td>TL;DR, 정의, 배경, 시나리오 등</td>
+<td>한 줄 정의, 상세 설명</td>
+</tr>
+<tr>
+<td><strong>대상</strong></td>
+<td>아키텍처, 패턴, 복잡한 개념</td>
+<td>도메인 용어, 약어, 기술 용어</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_8">현재 백과사전 항목<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../tenant-and-organization/">[테넌트와 조직 (Tenant &amp; Organization)]</a></li>
+<li><a href="../subject-user-admin-superadmin/">[사용자 주체 (User / Admin / Super Admin)]</a></li>
+</ul>
+<h2 id="_9">관련 항목<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../glossary/how-to-use/">[용어사전 사용 가이드]</a></li>
+<li><a href="../_index/">[백과사전 인덱스]</a></li>
 </ul>
 
 
