@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/CCCloudPlatform/design/author-profiles/</loc>
+         <lastmod>2025-12-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/CCCloudPlatform/design/style-guide/</loc>
          <lastmod>2025-12-01</lastmod>
          <changefreq>daily</changefreq>
