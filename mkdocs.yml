@@ -58,6 +58,12 @@ extra:
       email: "ksun411@gmail.com"
       bio: "AgenticCP 그자체"
       avatar: "https://github.com/KwonSunJae.png"
+    hyobin:
+      name: 양효빈
+      github: hyobin-yang
+      email: "hyobin3026@naver.com"
+      bio: "AgenticCP Core팀 개발자"
+      avatar: "https://github.com/hyobin-yang.png"
     # 추가 작성자 예시:
     # honggildong:
     #   name: 홍길동
@@ -73,6 +79,7 @@ nav:
       - 모든 항목: encyclopedia/_index.md
       - 테넌트와 조직: encyclopedia/tenant-and-organization.md
       - 사용자 주체: encyclopedia/subject-user-admin-superadmin.md
+      - 헥사고날 아키텍처: encyclopedia/hexagonal-architecture.md
   - 용어사전:
       - 사용 가이드: glossary/how-to-use.md
       - 용어 인덱스: glossary/index.md
